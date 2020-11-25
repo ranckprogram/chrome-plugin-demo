@@ -1,6 +1,5 @@
 {
   "manifest_version": 2,
-
   "name": "ranck 自定义chrome 插件",
   "description": "ranck 自定义chrome 插件",
   "version": "1.0",
@@ -12,6 +11,15 @@
     "tabs",
     "history",
     "topSites"
-  ]    
-  
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://www.baidu.com/"
+      ],
+      "js": [
+        "web/tool.js"
+      ]
+    }
+  ]
 }
