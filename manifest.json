@@ -15,7 +15,7 @@
   "content_scripts": [
     {
       "matches": [
-        "*://www.baidu.com/"
+        "*://www.baidu.com/*"
       ],
       "js": [
         "web/tool.js"
