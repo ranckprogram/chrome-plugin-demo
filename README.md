@@ -1,5 +1,8 @@
 # chrome 插件学习 Extension
 
+
+http://chrome.cenchy.com/index.html
+
 ### 学习目标
 
 - [ ] 插件中的js可以操作访问的网页
