@@ -18,7 +18,15 @@
         "*://www.baidu.com/*"
       ],
       "js": [
-        "web/tool.js"
+        "web/play-baidu.js"
+      ]
+    },
+    {
+      "matches": [
+        "https://localhost:8082/*"
+      ],
+      "js": [
+        "web/find-bug.js"
       ]
     }
   ]

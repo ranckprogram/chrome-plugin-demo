@@ -13,6 +13,7 @@
 document.getElementById("su").value = "查查查";
 
 console.log("666dd");
+
 window.ranckTool = {
   hahaha() {
     console.log("ahahha");
@@ -22,5 +23,6 @@ window.ranckTool = {
 let index = 1;
 
 setInterval(() => {
+  
   document.getElementById("su").value = `查查查${index++}`;
 }, 5000);

@@ -19,3 +19,9 @@ http://chrome.cenchy.com/index.html
 ### content_scripts
 
 在给指定的网页，追加特定js执行
+
+
+### 问题
+
+- 插件去调动网站的脚本方法
+- 
