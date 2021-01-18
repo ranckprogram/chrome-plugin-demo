@@ -10,7 +10,8 @@
   "permissions": [
     "tabs",
     "history",
-    "topSites"
+    "topSites",
+    "contextMenus"
   ],
   "content_scripts": [
     {
